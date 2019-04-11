@@ -1,0 +1,51 @@
+{
+    "name": "rest-ts-koa",
+    "version": "0.1.0",
+    "description": "Type-safe rest API definitions for koa",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "peerDependencies": {
+        "koa": "^2.7.0",
+        "koa-bodyparser": "^4.2.1",
+        "koa-router": "^7.4.0",
+        "rest-ts-core": "^0.5.0"
+    },
+    "files": [
+        "dist",
+        "src"
+    ],
+    "scripts": {
+        "tsc": "tsc",
+        "tslint": "tslint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hmil/rest.ts.git"
+    },
+    "keywords": [
+        "typescript",
+        "rest",
+        "http",
+        "api",
+        "type",
+        "definition"
+    ],
+    "author": "Hadrien Milano <github.com/hmil>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hmil/rest.ts/issues"
+    },
+    "homepage": "https://github.com/hmil/rest.ts#readme",
+    "dependencies": {
+        "@senhung/http-exceptions": "^1.1.1"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.0.48",
+        "@types/koa-bodyparser": "^4.2.2",
+        "@types/koa-router": "^7.0.40",
+        "koa": "^2.7.0",
+        "koa-bodyparser": "^4.2.1",
+        "koa-router": "^7.4.0",
+        "rest-ts-core": "^0.5.0"
+    }
+}
